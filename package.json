@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/krave1986/web-extensions-mv2-tutorial#readme",
   "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
     "prettier": "2.2.1"
   }
 }
