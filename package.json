@@ -1,0 +1,22 @@
+{
+  "name": "getstarted",
+  "version": "1.0.0",
+  "description": "Web extension tutorial from Chrome Dev.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krave1986/web-extensions-mv2-tutorial.git"
+  },
+  "author": "Krave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krave1986/web-extensions-mv2-tutorial/issues"
+  },
+  "homepage": "https://github.com/krave1986/web-extensions-mv2-tutorial#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
