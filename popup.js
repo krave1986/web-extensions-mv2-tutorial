@@ -21,9 +21,10 @@ const collectButton = document.querySelector('.scrape');
 collectButton.addEventListener('click', () => {
     console.log(chrome.tabs);
     chrome.tabs.create({
-        url: `http://data.eastmoney.com/bkzj/hy.html`,
+        url: `http://vip.stock.finance.sina.com.cn/moneyflow/#sczjlx`,
     });
     chrome.tabs.create({
-        url: `http://vip.stock.finance.sina.com.cn/moneyflow/#sczjlx`,
+        active: false,
+        url: `http://data.eastmoney.com/bkzj/hy.html`,
     });
 });
